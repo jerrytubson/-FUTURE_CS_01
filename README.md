@@ -1,14 +1,15 @@
 Cyber Security Assessment Projects – Future Interns (Tasks 1 & 2)
 Overview
 
-
 This repository contains two cybersecurity assessments completed as part of the Future Interns Cyber Security Internship Program.
 
 The projects focus on:
 Web security vulnerability assessment
+
 Phishing email detection and awareness
 
 Both tasks were performed using ethical, read-only, and defensive security practices.
+
 No exploitation or harmful activity was conducted.
 
 The objective was to identify risks, classify them clearly, and present findings in a professional, business-friendly format similar to real-world security consulting engagements.
@@ -18,19 +19,29 @@ Assessment Scope & Ethics
 Allowed
 
 Passive analysis only
+
 Public information gathering
+
 Header inspection
+
 Configuration review
+
 Email and domain investigation
+
 Risk documentation
 
 Not Allowed
 
 Exploitation
+
 Brute force attacks
+
 Login bypass
+
 Denial of Service (DoS)
+
 Malware execution
+
 Any harmful or intrusive activity
 
 All work strictly followed ethical cybersecurity standards.
@@ -96,7 +107,9 @@ Medium
 3. Low Risk Vulnerabilities (OWASP ZAP)
 
 X-Powered-By header disclosure
+
 Server version leakage
+
 Missing X-Content-Type-Options
 
 Impact
@@ -108,9 +121,13 @@ Risk Level
 Low
 
 4. Header Misconfiguration (Browser DevTools)
+
 Missing Headers
+
 Content-Security-Policy
+
 X-Frame-Options
+
 X-Content-Type-Options
 
 Risk Level
@@ -120,8 +137,11 @@ Medium–Low
 OWASP ZAP Scan Summary
 
 High: 0
+
 Medium: 3
+
 Low: 3
+
 Informational: 1
 
 Evidence Provided (Task 1)
@@ -130,9 +150,13 @@ Task-1-Vulnerability-Assessment/
  └── evidence/
 
 Includes:
+
 zap_report.html
+
 nmap_scan.txt
+
 header screenshots
+
 Final PDF report
 
 Task 2 – Phishing Detection & Awareness System
@@ -143,16 +167,22 @@ Analyze phishing email samples to identify malicious indicators, classify risks,
 This task simulates real-world Security Operations Center (SOC) and Security Awareness responsibilities.
 
 Tools Used
+
 Google Message Header Analyzer – Email authentication checks
+
 MXToolbox – Header & domain analysis
+
 Browser tools – Safe domain investigation
+
 Microsoft Word / PDF – Professional reporting
 
 Findings
 1. Suspicious Sender Domains
 
 Examples:
+
 microsoft-security-check.com
+
 payroll-secure-login.net
 
 Risk
@@ -172,7 +202,9 @@ Verify domain spelling and legitimacy before interacting.
 Header analysis revealed:
 
 SPF: fail
+
 DKIM: none
+
 DMARC: fail
 
 Impact
@@ -236,10 +268,15 @@ Task-2-Phishing-Detection/
 Includes:
 
 Sample email texts
+
 Email headers
+
 Google Header Analyzer results
+
 MXToolbox results
+
 Domain lookup screenshots
+
 Final report (PDF & DOCX)
 
 Repository Structure
@@ -258,9 +295,13 @@ FUTURE_CS_01/
 Conclusion
 
 The assessments identified multiple security weaknesses across:
+ 
  Website configuration
+ 
  Service exposure
+ 
  Missing security protections
+ 
  Phishing and social engineering threats
 
 Although no critical exploitation was performed, implementing the recommended fixes and awareness controls will significantly improve the organization’s overall security posture.
@@ -268,10 +309,15 @@ Although no critical exploitation was performed, implementing the recommended fi
 These projects demonstrate practical skills in:
 
 Vulnerability Assessment
+
 Email Forensics
+
 Phishing Detection
+
 Risk Analysis
+
 Security Reporting
+
 Defensive Security Practices
 
 Author
