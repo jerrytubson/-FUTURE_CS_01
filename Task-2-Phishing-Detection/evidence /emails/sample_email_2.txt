@@ -1,0 +1,18 @@
+Subject: Payroll Update Required
+
+From: hr@payroll-secure-login.net
+
+To: staff@company.com
+
+Dear Employee,
+
+Due to a payroll system update, please confirm your salary details immediately.
+
+Click below to update:
+http://payroll-secure-login.net/update
+
+Failure to comply may delay your salary.
+
+HR Department
+
+Save.
