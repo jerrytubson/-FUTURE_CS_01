@@ -1,0 +1,17 @@
+Subject: Microsoft 365 Password Expiry Notice
+
+From: support@microsoft-security-check.com
+
+To: user@company.com
+
+Hello,
+
+Your password expires today.
+Reset immediately to avoid losing access.
+
+Reset here:
+http://microsoft-security-check.com/reset
+
+Thank you.
+
+Save.
