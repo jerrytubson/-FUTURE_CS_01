@@ -1,0 +1,28 @@
+Domain & Link Analysis
+
+secure-account-verify.com
+
+Uses HTTP (not HTTPS)
+
+Not official company domain
+
+Suspicious naming pattern
+
+payroll-secure-login.net
+
+External domain not related to company
+
+Looks like login spoof site
+
+Potential phishing host
+
+microsoft-security-check.com
+
+Lookalike domain impersonating Microsoft
+
+Not microsoft.com
+
+Used for credential harvesting
+
+Conclusion:
+All domains appear malicious and unsafe.
