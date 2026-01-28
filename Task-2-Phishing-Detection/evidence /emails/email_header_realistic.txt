@@ -1,0 +1,20 @@
+Delivered-To: employee@company.com
+Received: by 2002:a05:620a:1447:b0:6d2:abcd:1234 with SMTP id x7csp12345qkj;
+        Mon, 27 Jan 2026 10:15:22 -0800 (PST)
+X-Received: by 2002:a17:906:4d4:: with SMTP id k20mr1234567ejt.123.1706356522000;
+        Mon, 27 Jan 2026 10:15:22 -0800 (PST)
+Return-Path: <support@microsoft-security-check.com>
+Received: from unknown-server.ru (unknown-server.ru. [185.199.110.153])
+        by mx.google.com with ESMTPS id v6si1234567qkg.123.2026.01.27.10.15.22
+        for <employee@company.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 27 Jan 2026 10:15:22 -0800 (PST)
+Authentication-Results: mx.google.com;
+       spf=fail (google.com: domain of support@microsoft-security-check.com does not designate 185.199.110.153 as permitted sender) smtp.mailfrom=support@microsoft-security-check.com;
+       dkim=none (no signature);
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=microsoft-security-check.com
+From: support@microsoft-security-check.com
+To: employee@company.com
+Subject: Microsoft 365 Password Expiry Notice
+Date: Mon, 27 Jan 2026 10:14:58 -0800
+Message-ID: <1234567890@unknown-server.ru>
