@@ -1,0 +1,13 @@
+Email Risk Classification
+
+Email 1 – Account Verification
+Risk Level: PHISHING
+Reason: Multiple phishing indicators including suspicious domain, urgency tactics, and malicious link.
+
+Email 2 – Payroll Update
+Risk Level: PHISHING
+Reason: Requests sensitive payroll data, uses fear tactics, and contains suspicious external link.
+
+Email 3 – Microsoft 365 Password Expiry
+Risk Level: PHISHING
+Reason: Header authentication failures (SPF/DKIM/DMARC), impersonation of Microsoft, and malicious sender infrastructure.

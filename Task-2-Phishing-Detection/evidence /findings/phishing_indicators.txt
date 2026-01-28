@@ -1,0 +1,29 @@
+Email 1 – Indicators
+
+• Suspicious sender domain (not official company)
+• Generic greeting ("Dear User")
+• Urgency language ("verify immediately", "24 hours")
+• HTTP link (not secure)
+• External unknown domain
+• Attempts to create fear of account lock
+
+
+Email 2 – Indicators
+
+• Sender domain not related to organization
+• Generic greeting ("Dear Employee")
+• Payroll threat used to create urgency
+• Suspicious external link
+• HTTP protocol
+• Requests sensitive payroll information
+
+
+Email 3 – Indicators
+
+• Lookalike domain impersonating Microsoft
+• Password reset pressure
+• Immediate action requested
+• HTTP link
+• Generic greeting ("Hello")
+• Header analysis showed SPF/DKIM/DMARC failures
+• Sending server unrelated to Microsoft
