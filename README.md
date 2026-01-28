@@ -1,157 +1,167 @@
-# Vulnerability Assessment Report – Future Interns Task 1
+FUTURE_CS_01 – Cyber Security Internship Projects
 
-## Overview
-This repository contains a read-only vulnerability assessment conducted on a public-facing website as part of the Future Interns Cyber Security Internship.
+Future Interns – 2026 Cohort
 
-The goal of the assessment was to identify common security weaknesses using passive techniques only, classify risks, and present findings in a clear, professional, and business-friendly report without performing any exploitation.
+This repository contains completed cybersecurity assessment tasks focused on real-world security consulting practices, ethical testing, and professional reporting.
 
----
+All assessments were conducted strictly within read-only and ethical scope, following industry standards and best practices.
 
-## Assessment Scope & Ethics
+🔹 Task 1 – Vulnerability Assessment (Web Security Audit)
+Objective
 
-### Allowed
-- Public pages only
-- Passive scanning
-- Header inspection
-- Configuration analysis
+Perform a passive security assessment on a live public website to identify common security misconfigurations and exposures without exploitation.
 
-### Not Allowed
-- Exploitation
-- Brute force attacks
-- Login bypass
-- Denial of Service (DoS)
-- Any harmful activity
+Activities Performed
 
-All testing was performed strictly within ethical and read-only boundaries.
+Passive reconnaissance
 
----
+Port scanning (Nmap)
 
-## Tools Used
-- **Nmap** – Port and service exposure discovery
-- **OWASP ZAP** – Passive vulnerability scanning
-- **Browser DevTools** – HTTP header inspection
-- **Canva** – Professional report design
+OWASP ZAP passive vulnerability scan
 
----
+HTTP security header analysis (Browser DevTools)
 
-# Findings
+Risk classification (Low / Medium / High)
 
-## 1. Service Exposure (Nmap)
+Professional remediation recommendations
 
-Open ports discovered:
+Tools Used
 
-- Port 80 (HTTP)
-- Port 587 (SMTP Mail Submission)
+Nmap
 
-### Risk
-Publicly accessible services increase the attack surface and may allow attackers to probe for misconfigurations or vulnerabilities.
+OWASP ZAP
 
-### Risk Level
-Low
+Browser DevTools
 
-### Recommendation
-Restrict unnecessary ports using firewall rules and expose only essential services.
+Canva (report design)
 
----
+Key Findings
 
-## 2. Medium Risk Vulnerabilities (OWASP ZAP)
+Examples:
 
-- Absence of Anti-CSRF tokens
-- Content Security Policy (CSP) header not configured
-- Missing Anti-clickjacking protection (X-Frame-Options)
+Missing Content Security Policy (CSP)
 
-### Impact
-These issues may allow:
-- Cross-site request forgery attacks
-- Clickjacking
-- Malicious script execution
+Missing anti-clickjacking protection
 
-### Risk Level
-Medium
+Missing anti-CSRF tokens
 
----
+Server information disclosure headers
 
-## 3. Low Risk Vulnerabilities (OWASP ZAP)
+Exposed SMTP service (Port 587)
 
-- X-Powered-By header reveals technology stack
-- Server version information disclosure
-- Missing X-Content-Type-Options header
-
-### Impact
-Information disclosure may assist attackers during reconnaissance.
-
-### Risk Level
-Low
-
----
-
-## 4. Header Misconfiguration (Browser DevTools)
-
-### Observed Headers
-- Server: nginx/1.19.0
-- X-Powered-By: PHP/5.6.40
-
-### Missing Security Headers
-- Content-Security-Policy
-- X-Frame-Options
-- X-Content-Type-Options
-
-### Risk
-Missing headers reduce protection against:
-- Clickjacking
-- MIME-sniffing
-- Script injection attacks
-
-### Risk Level
-Medium–Low
-
----
-
-# OWASP ZAP Scan Summary
-
-Passive Scan Results:
-
-- High: 0
-- Medium: 3
-- Low: 3
-- Informational: 1
-
-Full detailed report is provided in the repository as `zap_report.html`.
-
----
-
-# Evidence Provided
-
-The following supporting files are included:
-
-- zap_report.html – Full OWASP ZAP report
-- nmap_scan.txt – Raw Nmap scan output
-- browser_headers.png – DevTools header inspection screenshot
-- Nmap scan screenshot
-- Vulnerability_Assessment_Report.pdf – Final professional report
-
----
-
-# Repository Structure
+Deliverables
+Task-1-Vulnerability-Assessment/
+ ├── report/
+ └── evidence/
 
 
----
+Includes:
 
-# Conclusion
+Professional PDF report
 
-The assessment identified several missing security headers and exposed services that increase the website’s attack surface.
+Scan outputs
 
-Although no critical vulnerabilities were discovered, implementing recommended fixes such as enabling security headers, hiding server information, and restricting unnecessary open ports will significantly improve the website’s security posture.
+Screenshots
 
----
+Supporting evidence
 
-# Author
-Jeremiah Olatubosun  
-Cyber Security Intern – Future Interns
+🔹 Task 2 – Phishing Detection & Awareness System
+Objective
+
+Analyze phishing email samples, identify indicators of compromise, classify risks, and create an employee awareness guide to prevent social engineering attacks.
+
+Activities Performed
+
+Email header analysis
+
+SPF/DKIM/DMARC verification
+
+Sender domain investigation
+
+Suspicious link analysis
+
+Phishing indicator identification
+
+Risk classification (Safe / Suspicious / Phishing)
+
+Awareness & prevention guidelines
+
+Tools Used
+
+Google Header Analyzer
+
+MXToolbox
+
+Browser investigation tools
+
+Microsoft Word (reporting)
+
+Key Findings
+
+Examples:
+
+Spoofed sender domains
+
+SPF/DKIM/DMARC failures
+
+Malicious look-alike domains
+
+Fear/urgency social engineering tactics
+
+Generic greetings
+
+Deliverables
+Task-2-Phishing-Detection/
+ ├── report/
+ └── evidence/
 
 
+Includes:
 
+Detection & Awareness Report (PDF + DOCX)
 
+Email samples
 
+Header analysis screenshots
+
+Domain investigations
+
+Documented findings
+
+⚖️ Ethical Statement
+
+All testing performed:
+
+Passive only
+
+No exploitation
+
+No service disruption
+
+Public or permitted targets only
+
+🎯 Skills Demonstrated
+
+Vulnerability Assessment
+
+Security Misconfiguration Analysis
+
+Phishing Detection
+
+Email Forensics
+
+Risk Assessment
+
+Security Reporting
+
+Cybersecurity Awareness Training
+
+Professional Documentation
+
+👤 Author
+
+Jeremiah Olatubosun
+Cybersecurity Interns
+Future Interns Program – 2026
 
 
