@@ -1,0 +1,31 @@
+API Security Risk Summary
+========================
+
+Endpoint Tested: JSONPlaceholder Demo API
+
+Identified Risks:
+
+1. Missing Authentication
+   - All endpoints accessible without tokens or API keys
+   - Severity: High
+
+2. Excessive Data Exposure
+   - Large datasets including user details returned
+   - Severity: High
+
+3. No Rate Limiting
+   - Unlimited requests allowed
+   - Risk of abuse and DoS
+   - Severity: Medium
+
+4. No Pagination Controls
+   - Full datasets returned in single responses
+   - Enables bulk scraping
+   - Severity: Medium
+
+5. Technology Disclosure
+   - Headers reveal backend technologies
+   - Severity: Low
+
+Overall Risk Rating: Medium–High
+
