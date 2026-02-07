@@ -1,0 +1,21 @@
+Assessment Notes
+================
+
+Testing Type:
+Read-only, ethical API inspection only
+
+Tools Used:
+- Postman
+- Browser DevTools
+
+Method:
+- Sent GET requests to /posts, /users, /comments
+- Inspected headers and responses
+- Reviewed authentication behavior
+- Evaluated data exposure
+
+Important:
+No exploitation, bypass, or harmful activity was performed.
+
+Purpose:
+Identify risks and provide recommendations similar to a professional API security audit.
