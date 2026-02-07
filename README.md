@@ -1,34 +1,261 @@
-Cyber Security Assessment Projects – Future Interns (Tasks 1 & 2)
+Cyber Security Internship Portfolio – Future Interns
+Comprehensive Security Assessment Projects (Tasks 1–3)
 Overview
 
-This repository contains two cybersecurity assessments completed as part of the Future Interns Cyber Security Internship Program.
+This repository contains a collection of professional, hands-on cyber security assessments completed during the Future Interns Cyber Security Internship Program.
 
-The projects focus on:
-Web security vulnerability assessment
+Across three structured tasks, multiple real-world security domains were evaluated using ethical, read-only, and industry-standard practices. The objective of these exercises was to simulate the responsibilities of a professional Security Analyst / SOC Analyst / Application Security Consultant, focusing on identifying risks, analyzing weaknesses, and presenting findings in a clear and business-friendly manner.
 
-Phishing email detection and awareness
+Rather than performing exploitation or attacks, each task emphasized:
 
-Both tasks were performed using ethical, read-only, and defensive security practices.
+Security analysis
 
-No exploitation or harmful activity was conducted.
+Risk identification
 
-The objective was to identify risks, classify them clearly, and present findings in a professional, business-friendly format similar to real-world security consulting engagements.
+Threat awareness
 
-Assessment Scope & Ethics
+Documentation
 
-Allowed
+Professional reporting
 
-Passive analysis only
+The deliverables mirror the type of reports produced by security consulting firms and internal enterprise security teams.
 
-Public information gathering
+🎯 Internship Goals
+
+The internship focused on developing practical skills in:
+
+Vulnerability Assessment
+
+Phishing Detection & User Awareness
+
+API Security Analysis
+
+Risk Classification
+
+Security Reporting
+
+Ethical Testing Methodologies
+
+All activities strictly followed ethical and legal boundaries.
+
+📁 Repository Structure
+FUTURE_CS_01/
+│
+├── Task-1-Vulnerability-Assessment/
+├── Task-2-Phishing-Detection/
+├── Task-3-API-Security/
+│
+└── README.md
+
+
+Each task folder contains:
+
+Professional report (DOCX + PDF)
+
+Supporting evidence
+
+Screenshots
+
+Findings
+
+Task-specific README
+
+🔐 Task 1 – Web Vulnerability Assessment
+Objective
+
+Conduct a read-only vulnerability assessment on a public-facing website to identify common security misconfigurations and weaknesses without exploiting the system.
+
+Activities Performed
+
+Service discovery using port scanning
+
+Passive vulnerability scanning
+
+HTTP header inspection
+
+Configuration analysis
+
+Risk classification
+
+Tools Used
+
+Nmap
+
+OWASP ZAP (Passive Scan)
+
+Browser DevTools
+
+Canva (report design)
+
+Key Findings
+
+Missing security headers (CSP, Anti-CSRF, X-Frame-Options)
+
+Information disclosure via server headers
+
+Exposed services (Ports 80 and 587)
+
+Configuration weaknesses increasing attack surface
+
+Skills Demonstrated
+
+Web security reconnaissance
+
+Risk analysis
+
+Security documentation
+
+Ethical testing practices
+
+📧 Task 2 – Phishing Detection & Awareness System
+Objective
+
+Analyze phishing email samples and design an awareness-focused security report to help organizations detect and prevent phishing attacks.
+
+This task emphasized human-centric security, recognizing that many breaches occur due to user deception rather than technical vulnerabilities.
+
+Activities Performed
+
+Collection of phishing samples
+
+Header analysis
+
+Sender domain investigation
+
+Link inspection
+
+Risk classification
+
+Creation of prevention guidelines
+
+Tools Used
+
+Google Header Analyzer
+
+MXToolbox
+
+Browser inspection tools
+
+Microsoft Word
+
+Indicators Identified
+
+Suspicious sender domains
+
+SPF/DKIM/DMARC failures
+
+Urgency and fear tactics
+
+Generic greetings
+
+Malicious URLs
+
+Email spoofing behavior
+
+Key Outcome
+
+A professional awareness report that:
+
+explains phishing techniques in simple language
+
+educates users
+
+provides prevention guidelines
+
+supports corporate security training
+
+Skills Demonstrated
+
+Email forensics
+
+Social engineering detection
+
+Threat awareness education
+
+Security communication
+
+🔌 Task 3 – API Security Risk Analysis
+Objective
+
+Perform a read-only security review of public APIs to evaluate authentication controls, data exposure, and potential abuse risks.
+
+This task reflects modern SaaS security practices, as APIs power most applications today.
+
+Activities Performed
+
+Endpoint testing with Postman
 
 Header inspection
 
-Configuration review
+Response analysis
 
-Email and domain investigation
+Data exposure assessment
 
-Risk documentation
+Browser network analysis
+
+Risk classification
+
+Remediation planning
+
+APIs Tested
+
+JSONPlaceholder demo API
+
+Tools Used
+
+Postman
+
+Browser DevTools
+
+Microsoft Word
+
+Key Findings
+
+No authentication enforcement
+
+Excessive data exposure
+
+Lack of rate limiting
+
+No pagination controls
+
+Technology disclosure via headers
+
+Business Risks
+
+Unauthorized access
+
+Data scraping
+
+Privacy violations
+
+Service abuse
+
+Increased attack surface
+
+Skills Demonstrated
+
+API security analysis
+
+AppSec concepts
+
+Modern SaaS risk evaluation
+
+Professional reporting
+
+🛡️ Ethical & Professional Standards
+
+All tasks strictly adhered to:
+
+Allowed
+
+Public/demo targets only
+
+Read-only inspection
+
+Passive analysis
+
+Documentation-based review
 
 Not Allowed
 
@@ -36,292 +263,90 @@ Exploitation
 
 Brute force attacks
 
-Login bypass
+DoS testing
 
-Denial of Service (DoS)
+Authentication bypass
 
-Malware execution
+Any harmful activity
 
-Any harmful or intrusive activity
+This ensured responsible, legal, and professional security practices.
 
-All work strictly followed ethical cybersecurity standards.
+📊 Tools & Technologies Summary
 
-Task 1 – Vulnerability Assessment (Web Security Audit)
-Objective
+Nmap
 
-Perform a passive vulnerability assessment on a public-facing website to identify common security misconfigurations and exposed services without exploiting the target.
+OWASP ZAP
 
-Tools Used
+Postman
 
-Nmap – Port and service exposure discovery
+Browser DevTools
 
-OWASP ZAP – Passive vulnerability scanning
+MXToolbox
 
-Browser DevTools – HTTP header inspection
+Google Header Analyzer
 
-Canva – Professional report design
+Microsoft Word / PDF
 
-Findings
-1. Service Exposure (Nmap)
+Canva
 
-Open ports discovered:
+💼 Professional Value of This Portfolio
 
-Port 80 (HTTP)
+These projects demonstrate practical capability in:
 
-Port 587 (SMTP Mail Submission)
+Security auditing
 
-Risk
+Risk assessment
 
-Publicly accessible services increase the attack surface and may allow attackers to probe for vulnerabilities.
+Threat analysis
 
-Risk Level
+Security awareness
 
-Low
+Technical documentation
 
-Recommendation
+Consulting-style reporting
 
-Restrict unnecessary services using firewall rules and expose only essential ports.
+The skills developed align with roles such as:
 
-2. Medium Risk Vulnerabilities (OWASP ZAP)
+SOC Analyst
 
-Absence of Anti-CSRF tokens
+Security Analyst
 
-Content Security Policy (CSP) not configured
+GRC Analyst
 
-Missing Anti-clickjacking protection
+Application Security Engineer
 
-Impact
+SaaS Security Consultant
 
-May allow:
+📄 Reports Included
 
-Cross-site request forgery
+Each task contains:
 
-Clickjacking
+Professional report (DOCX + PDF)
 
-Malicious script execution
+Technical evidence
 
-Risk Level
+Screenshots
 
-Medium
+Raw findings
 
-3. Low Risk Vulnerabilities (OWASP ZAP)
+Structured documentation
 
-X-Powered-By header disclosure
+✅ Conclusion
 
-Server version leakage
+This repository represents a complete end-to-end cyber security assessment portfolio covering:
 
-Missing X-Content-Type-Options
+Web applications
 
-Impact
+Email threats
 
-Information disclosure assists attackers during reconnaissance.
+APIs
 
-Risk Level
+Together, these tasks simulate real enterprise security operations and provide hands-on experience with modern security practices.
 
-Low
+The assessments emphasize responsible testing, clear communication, and actionable recommendations — key traits expected of professional security practitioners.
 
-4. Header Misconfiguration (Browser DevTools)
-
-Missing Headers
-
-Content-Security-Policy
-
-X-Frame-Options
-
-X-Content-Type-Options
-
-Risk Level
-
-Medium–Low
-
-OWASP ZAP Scan Summary
-
-High: 0
-
-Medium: 3
-
-Low: 3
-
-Informational: 1
-
-Evidence Provided (Task 1)
-Task-1-Vulnerability-Assessment/
- ├── report/
- └── evidence/
-
-Includes:
-
-zap_report.html
-
-nmap_scan.txt
-
-header screenshots
-
-Final PDF report
-
-Task 2 – Phishing Detection & Awareness System
-Objective
-
-Analyze phishing email samples to identify malicious indicators, classify risks, and develop an awareness guide that helps users recognize and prevent phishing attacks.
-
-This task simulates real-world Security Operations Center (SOC) and Security Awareness responsibilities.
-
-Tools Used
-
-Google Message Header Analyzer – Email authentication checks
-
-MXToolbox – Header & domain analysis
-
-Browser tools – Safe domain investigation
-
-Microsoft Word / PDF – Professional reporting
-
-Findings
-1. Suspicious Sender Domains
-
-Examples:
-
-microsoft-security-check.com
-
-payroll-secure-login.net
-
-Risk
-
-Look-alike domains impersonate trusted brands to deceive users.
-
-Risk Level
-
-High
-
-Recommendation
-
-Verify domain spelling and legitimacy before interacting.
-
-2. Email Authentication Failures
-
-Header analysis revealed:
-
-SPF: fail
-
-DKIM: none
-
-DMARC: fail
-
-Impact
-
-Indicates spoofed or unauthorized sender.
-
-Risk Level
-
-High
-
-3. Malicious / Suspicious Links
-
-Links redirect users to fake credential harvesting pages.
-
-Impact
-
-May result in:
-
-Credential theft
-
-Account compromise
-
-Financial loss
-
-Risk Level
-
-High
-
-4. Social Engineering Indicators
-
-Observed tactics:
-
-Urgent language
-
-Fear-based messages
-
-Generic greetings ("Dear User", "Dear Employee")
-
-Immediate action requests
-
-Risk
-
-Manipulates users into unsafe actions.
-
-Risk Level
-
-Medium–High
-
-Risk Classification Summary (Task 2)
-
-All analyzed emails were classified as:
-
-Phishing (High Risk)
-
-Evidence Provided (Task 2)
-Task-2-Phishing-Detection/
- ├── report/
- └── evidence/
-
-
-Includes:
-
-Sample email texts
-
-Email headers
-
-Google Header Analyzer results
-
-MXToolbox results
-
-Domain lookup screenshots
-
-Final report (PDF & DOCX)
-
-Repository Structure
-FUTURE_CS_01/
-│
-├── Task-1-Vulnerability-Assessment/
-│   ├── report/
-│   └── evidence/
-│
-├── Task-2-Phishing-Detection/
-│   ├── report/
-│   └── evidence/
-│
-└── README.md
-
-Conclusion
-
-The assessments identified multiple security weaknesses across:
- 
- Website configuration
- 
- Service exposure
- 
- Missing security protections
- 
- Phishing and social engineering threats
-
-Although no critical exploitation was performed, implementing the recommended fixes and awareness controls will significantly improve the organization’s overall security posture.
-
-These projects demonstrate practical skills in:
-
-Vulnerability Assessment
-
-Email Forensics
-
-Phishing Detection
-
-Risk Analysis
-
-Security Reporting
-
-Defensive Security Practices
-
-Author
+👤 Author
 
 Jeremiah Olatubosun
-
 Cyber Security Intern – Future Interns
+GitHub Portfolio Repository
